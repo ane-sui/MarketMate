@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id');
             $table->string('product_name');
-            $table->foreignId('product_id');npm 
+            $table->foreignId('product_id');
             $table->integer('quantity');
             $table->decimal('price',8,2);
             $table->timestamps();
